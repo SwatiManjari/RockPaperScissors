@@ -1,0 +1,44 @@
+body{
+    font-weight: bold;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    height: 500px;
+}
+h1
+{
+    font-size: xx-large;
+}
+.choices
+{
+    margin-bottom: 30px;
+}
+.choices button
+{
+    font-size: xx-large;
+    min-width: 100px;
+    margin: 0 10px;
+    border-radius: 500px;
+    background-color: aqua;
+    cursor: pointer;
+    transition: background-colr 0.5s ease;
+    border: none;
+}
+.choices button:hover
+{
+    background-color: rgb(182, 255, 255);
+}
+#playerDisplay,#computerDisplay
+{
+    font-size: x-large;
+    margin: 5px;
+    padding: 5px;
+}
+#resultDisplay
+{
+    font-size: xx-large;
+    margin-top: 10px;
+    padding: 10px;
+}
